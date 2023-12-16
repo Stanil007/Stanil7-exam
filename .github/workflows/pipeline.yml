@@ -19,7 +19,7 @@ jobs:
         node-version: 18.x
         cache: 'npm'
     - name: Install Packages
-      run: npm run install
+      run: npm install
     - name: Run Unit Tests
       run: npm run test:unit
     - name: Display SoftUni Username
